@@ -89,6 +89,9 @@ body{
     font-weight: bold;
     font-size: 18px;
 }
+.form-registro select{
+    border: 1px solid black;
+    margin-bottom:  10px;
 .genero{
     margin-bottom: 10px;
 }
