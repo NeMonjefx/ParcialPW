@@ -1,0 +1,46 @@
+body{
+    font-family: 'Roboto Mono', monospace;
+}
+.navbar-brand{
+    font-weight: bold;
+    font-style: italic; 
+    font-family: 'Kiwi Maru', serif;  
+}
+.navbar-brand:hover{
+    font-style: normal;
+}
+.slider-index{
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+
+.galeria-titulo{
+    font-weight: bold;
+    font-family: 'Kiwi Maru', serif;
+    text-align: center;
+    margin: 20px 60px 30px 0;
+}
+
+.card{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+    margin-bottom: 5rem;
+}
+.card h5{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.card p{
+    font-weight: bold;
+}
+.card p span{
+    font-weight: normal;
+}
+@media (max-width: 540px) {
+    .slider-index {
+    margin-top: 20px; 
+    }
+    .galeria-titulo{
+        text-align: center;
+    }
+}
