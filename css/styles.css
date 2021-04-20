@@ -43,4 +43,100 @@ body{
     .galeria-titulo{
         text-align: center;
     }
+    .card{
+        margin-left: 30px;
+    }
+    .galeria-titulo{
+        margin-left: 30px;
+    }
+}
+
+
+
+
+
+/* FORMULARIO REGISTRO */
+.form-registro{
+    margin-top: 50px;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+    border-radius: 3px;
+    padding: 20px;
+}
+.form-registro input{
+    border: 1px solid black;
+    color: black;
+}
+.form-registro h2{
+    text-align: center;
+    font-family: 'Kiwi Maru', serif;
+}
+.form-registro label{
+    font-family: 'Kiwi Maru', serif; 
+    font-weight: bold;
+    font-size: 18px;
+}
+.form-registro .nombres, .apellidos{
+    margin-bottom: 10px;
+}
+.form-registro .form-check label{
+    font-weight: normal;
+}
+.form-registro .form-check span{
+    font-weight: bold;
+}
+.genero p{
+    font-family: 'Kiwi Maru', serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+.genero{
+    margin-bottom: 10px;
+}
+.genero label{
+    font-size: 15px;
+    font-weight: normal;
+}
+/* .form-registro button{
+    margin-top: 12px;
+} */
+.terminos:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+}
+.form-registro button:hover{
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+}
+@media (max-width: 540px) {
+    .body-inicio-sesion .form-registro{
+        height: 50vh;
+    }
+    .body-inicio-sesion .form-registro h2{
+        margin-bottom: 20px;
+    }
+    .form-registro{
+        border: none;
+        margin-top: 0;
+        box-shadow: none;
+    }
+    .form-registro input{
+        font-size: 12px;
+    }
+    .body-registro label{
+        font-size: 14px;
+    }
+}
+@media (max-width: 960px) {
+    .body-inicio-sesion .form-registro{
+        height: 40vh;
+    }
+    .body-inicio-sesion .form-registro h2{
+        margin-bottom: 20px;
+    }
+    .form-registro{
+        border: none;
+        margin-top: 20px;
+        box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.75);
+        
+    }
 }
